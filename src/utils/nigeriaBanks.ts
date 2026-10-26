@@ -1,0 +1,25 @@
+export interface Bank { code: string; name: string; }
+
+export const NIGERIA_BANKS: Bank[] = [
+  { code: '044', name: 'Access Bank' },
+  { code: '023', name: 'Citibank Nigeria' },
+  { code: '050', name: 'Ecobank Nigeria' },
+  { code: '011', name: 'First Bank of Nigeria' },
+  { code: '214', name: 'First City Monument Bank (FCMB)' },
+  { code: '070', name: 'Fidelity Bank' },
+  { code: '058', name: 'GTBank (Guaranty Trust)' },
+  { code: '030', name: 'Heritage Bank' },
+  { code: '082', name: 'Keystone Bank' },
+  { code: '526', name: 'Moniepoint MFB' },
+  { code: '076', name: 'Polaris Bank' },
+  { code: '221', name: 'Stanbic IBTC Bank' },
+  { code: '232', name: 'Sterling Bank' },
+  { code: '032', name: 'Union Bank of Nigeria' },
+  { code: '033', name: 'United Bank for Africa (UBA)' },
+  { code: '215', name: 'Unity Bank' },
+  { code: '035', name: 'Wema Bank' },
+  { code: '057', name: 'Zenith Bank' },
+  { code: '090267', name: 'Kuda MFB' },
+  { code: '090405', name: 'Opay' },
+  { code: '090325', name: 'PalmPay' },
+];
